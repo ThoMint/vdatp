@@ -1753,7 +1753,6 @@ F20 "as_dclk" O L 6000 5050 50
 F21 "as_data0" O L 6000 5150 50 
 F22 "nStatus" B R 7450 3450 50 
 F23 "conf_done" B R 7450 3550 50 
-F24 "+2.5V" O L 6000 3850 50 
 $EndSheet
 Wire Wire Line
 	7450 2650 7550 2650
@@ -1767,19 +1766,6 @@ Wire Wire Line
 	7600 2550 7600 3550
 Wire Wire Line
 	7600 3550 7450 3550
-Wire Wire Line
-	6000 3850 5800 3850
-$Comp
-L power:+2V5 #PWR0138
-U 1 1 607B6507
-P 5800 3850
-F 0 "#PWR0138" H 5800 3700 50  0001 C CNN
-F 1 "+2V5" V 5815 3978 50  0000 L CNN
-F 2 "" H 5800 3850 50  0001 C CNN
-F 3 "" H 5800 3850 50  0001 C CNN
-	1    5800 3850
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	7850 900  8300 900 
 Wire Wire Line

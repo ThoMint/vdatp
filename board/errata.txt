@@ -3,5 +3,3 @@
 + conf_done and nStatus lines should be connected together
 + PD on LED enable lines
 - silkscreen error R112/R131 switched
-
-+"+2.5V" not connected on Sheet FPGA2?
