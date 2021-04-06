@@ -1753,6 +1753,7 @@ F20 "as_dclk" O L 6000 5050 50
 F21 "as_data0" O L 6000 5150 50 
 F22 "nStatus" B R 7450 3450 50 
 F23 "conf_done" B R 7450 3550 50 
+F24 "+2.5V" O L 6000 3850 50 
 $EndSheet
 Wire Wire Line
 	7450 2650 7550 2650
@@ -1772,4 +1773,6 @@ Wire Wire Line
 	7850 1000 8300 1000
 Wire Wire Line
 	7850 1100 8300 1100
+Wire Wire Line
+	5700 3850 6000 3850
 $EndSCHEMATC

@@ -2365,12 +2365,6 @@ Text Label 10850 2300 1    50   ~ 0
 +2.5V
 Text Label 7600 2050 0    50   ~ 0
 +2.5V
-Wire Wire Line
-	10550 6200 10250 6200
-Text Label 10250 6200 2    50   ~ 0
-+2.5V
-Text HLabel 10550 6200 2    50   Output ~ 0
-+2.5V
 Text Label 8850 3250 0    50   ~ 0
 +2.5V
 $Comp
@@ -2675,4 +2669,10 @@ Wire Wire Line
 Connection ~ 2900 1350
 Wire Wire Line
 	2900 1350 2900 1050
+Text HLabel 10550 6200 2    50   Output ~ 0
++2.5V
+Text Label 10250 6200 2    50   ~ 0
++2.5V
+Wire Wire Line
+	10550 6200 10250 6200
 $EndSCHEMATC

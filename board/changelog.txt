@@ -1,0 +1,26 @@
+PCB 1V0: Daniel
+known bugs
++ add 0R on ncs/mosi/sck coming from U101 to allow using U101 at the same time as U102 for syncin signal
++ as_* nets on FGPA2 are wrong on top page
++ conf_done and nStatus lines should be connected together
++ PD on LED enable lines
+- silkscreen error R112/R131 switched
+
+PCB 1v1: 05.04.2021 / Stefan Lechner
+fixed: added R0402-0R on ncs/mosi/sck coming from U101
+fixed: as_* nets on FGPA2 rewired
+fixed: nconfig, conf_done and nStatus lines are connected together on FPGA1 and FPGA2, according to email from Daniel Foisy
+fixed: added R0402-10k Pulldown on LED-Enable lines (pin 142 to 144 on FPGA)
+fixed: reduced DRC errors to 2
+changed: rework of silkscreen layer inkluding footprints in holo library
+changed: adapted via size to have 150µm annular ring > std vias: 0.3/0.6mm and 0.4/0.7mm
+changed: minor PCB routing cosmetics
+new: added courtyards in holo library footprints
+new: added fabrication symbols in holo library footprints
+new: created pcb fabrication data (assembly plan)
+new: added solder-mask strings for connector identification
+new: added testpoints for system voltages
+new: added pin1 mark on the transducers (round rectangle shaped pad)
+ 
+
+
