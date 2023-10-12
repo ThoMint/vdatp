@@ -1,5 +1,6 @@
 (sym_lib_table
-  (lib (name flicker)(type Legacy)(uri ${KIPRJMOD}/flicker/flicker.lib)(options "")(descr ""))
-  (lib (name holo)(type Legacy)(uri ${KIPRJMOD}/holo.lib)(options "")(descr ""))
-  (lib (name floater-rescue)(type Legacy)(uri ${KIPRJMOD}/floater-rescue.lib)(options "")(descr ""))
+  (version 7)
+  (lib (name "flicker")(type "Legacy")(uri "${KIPRJMOD}/flicker/flicker.lib")(options "")(descr ""))
+  (lib (name "holo")(type "Legacy")(uri "${KIPRJMOD}/holo.lib")(options "")(descr ""))
+  (lib (name "floater-rescue")(type "KiCad")(uri "${KIPRJMOD}/floater-rescue.kicad_sym")(options "")(descr ""))
 )
